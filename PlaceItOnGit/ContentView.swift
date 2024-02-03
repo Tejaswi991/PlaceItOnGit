@@ -11,6 +11,10 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Image(systemName:"house.fill")
+                Text("My SweetHome❤️")
+                .font(.title)
+            Text("The place just like heaven❤️")
+                .fontWeight(.heavy)
         }
         .padding()
     }
