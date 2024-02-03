@@ -15,6 +15,7 @@ struct ContentView: View {
                 .fontWeight(.heavy)
             Text("A happy place")
                 .fontWeight(.heavy)
+            Text("SweetHome Constructed❤️")
         }
         .padding()
     }
