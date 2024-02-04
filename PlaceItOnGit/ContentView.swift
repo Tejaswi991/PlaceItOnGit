@@ -24,6 +24,9 @@ struct ContentView: View {
             Text("Where quality and quality matters")
                 .fontWeight(.heavy)
             Text("SweetShop Constructed❤️")
+            Image(systemName:"chevron.right")
+                .resizable()
+                .frame(width:100,height:100)
         }
         .padding()
     }
