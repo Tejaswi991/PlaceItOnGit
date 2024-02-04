@@ -8,14 +8,22 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+//            Image(systemName:"house.fill")
+//                Text("My SweetHome❤️")
+//                .font(.title)
+//            Text("The place just like heaven❤️")
+//                .fontWeight(.heavy)
+//            Text("A happy place")
+//                .fontWeight(.heavy)
+//            Text("SweetHome Constructed❤️")
             Image(systemName:"house.fill")
-                Text("My SweetHome❤️")
+                Text("My SweetShop❤️")
                 .font(.title)
             Text("The place just like heaven❤️")
                 .fontWeight(.heavy)
-            Text("A happy place")
+            Text("Where quality and quality matters")
                 .fontWeight(.heavy)
-            Text("SweetHome Constructed❤️")
+            Text("SweetShop Constructed❤️")
         }
         .padding()
     }
