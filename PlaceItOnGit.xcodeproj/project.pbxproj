@@ -11,6 +11,8 @@
 		29D02EE02B6E60A600B18C1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D02EDF2B6E60A600B18C1F /* ContentView.swift */; };
 		29D02EE22B6E60A700B18C1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D02EE12B6E60A700B18C1F /* Assets.xcassets */; };
 		29D02EE52B6E60A700B18C1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D02EE42B6E60A700B18C1F /* Preview Assets.xcassets */; };
+		29E5D4C92B85C861006C2E6F /* .env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E5D4C82B85C861006C2E6F /* .env.swift */; };
+		29E5D4CC2B8639A8006C2E6F /* API_SERVICE_KEY PLIST.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29E5D4CB2B8639A8006C2E6F /* API_SERVICE_KEY PLIST.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		29D02EDF2B6E60A600B18C1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		29D02EE12B6E60A700B18C1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29D02EE42B6E60A700B18C1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		29E5D4C82B85C861006C2E6F /* .env.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = .env.swift; sourceTree = "<group>"; };
+		29E5D4CB2B8639A8006C2E6F /* API_SERVICE_KEY PLIST.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "API_SERVICE_KEY PLIST.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				29D02EDD2B6E60A600B18C1F /* PlaceItOnGitApp.swift */,
 				29D02EDF2B6E60A600B18C1F /* ContentView.swift */,
+				29E5D4C82B85C861006C2E6F /* .env.swift */,
+				29E5D4CB2B8639A8006C2E6F /* API_SERVICE_KEY PLIST.plist */,
 				29D02EE12B6E60A700B18C1F /* Assets.xcassets */,
 				29D02EE32B6E60A700B18C1F /* Preview Content */,
 			);
@@ -77,6 +83,7 @@
 				29D02ED62B6E60A600B18C1F /* Sources */,
 				29D02ED72B6E60A600B18C1F /* Frameworks */,
 				29D02ED82B6E60A600B18C1F /* Resources */,
+				29E5D4CA2B85C98F006C2E6F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -126,11 +133,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				29D02EE52B6E60A700B18C1F /* Preview Assets.xcassets in Resources */,
+				29E5D4CC2B8639A8006C2E6F /* API_SERVICE_KEY PLIST.plist in Resources */,
 				29D02EE22B6E60A700B18C1F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29E5D4CA2B85C98F006C2E6F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		29D02ED62B6E60A600B18C1F /* Sources */ = {
@@ -138,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29D02EE02B6E60A600B18C1F /* ContentView.swift in Sources */,
+				29E5D4C92B85C861006C2E6F /* .env.swift in Sources */,
 				29D02EDE2B6E60A600B18C1F /* PlaceItOnGitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

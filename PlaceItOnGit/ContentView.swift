@@ -27,8 +27,11 @@ struct ContentView: View {
             Image(systemName:"chevron.right")
                 .resizable()
                 .frame(width:100,height:100)
+            Text("How are you")
+            Text("I am soooooo happy without any reason🤣")
         }
         .padding()
+        
     }
 }
 #Preview {
